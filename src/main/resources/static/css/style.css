@@ -57,6 +57,12 @@
     transform: translateY(4px);
     transition: transform 0.2s ease-in;
 }
+@media (max-width: 768px) {
+    #menu-button {
+        /* adjust styles for smaller screens */
+    }
+}
+
 #menu-overlay {
     position: absolute;
     width: 100%;
