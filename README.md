@@ -3,13 +3,13 @@ This is a web application template built using the Spring framework (version 3.0
 
 **Features**
 
-*Built on the Spring 3.0.5 framework
+- Built on the Spring 3.0.5 framework
 
--Designed using responsive web design principles
+- Designed using responsive web design principles
 
--Compatible with various web browsers
+- Compatible with various web browsers
 
--Easy to customize and extend
+- Easy to customize and extend
 
 
 **Getting Started**
@@ -27,13 +27,13 @@ To use this web application template, follow these steps:
 
 The web application template is highly customizable, and you can modify it in several ways, including:
 
--Changing the color scheme
+- Changing the color scheme
 
--Adding new pages
+- Adding new pages
 
--Modifying the layout
+- Modifying the layout
 
--Adding new features
+- Adding new features
 
 **Contributing**
 
