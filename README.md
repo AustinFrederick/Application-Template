@@ -3,7 +3,7 @@ This is a web application template built using the Spring framework (version 3.0
 
 **Features**
 
--Built on the Spring 3.0.5 framework
+*Built on the Spring 3.0.5 framework
 
 -Designed using responsive web design principles
 
@@ -36,6 +36,7 @@ The web application template is highly customizable, and you can modify it in se
 -Adding new features
 
 **Contributing**
+
 **Contributions to this web application template are welcome. To contribute, follow these steps:**
 
 1) Fork the repository
