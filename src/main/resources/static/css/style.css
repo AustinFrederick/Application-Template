@@ -1,0 +1,86 @@
+/* CSS for main background div */
+#pageBody {
+    background-color: #0c0f12;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* CSS for foreground div */
+#pageContent {
+    background-color: #33383e;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: calc(100vh - 24px);
+    width: calc(100vw - 24px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#menu-button {
+    background-color: #5c6065;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: border-radiusr .75s;
+}
+
+#menu-button:hover {
+    background-color: #707478;
+    border-radius: 5px;
+    transition: border-radius .75s;
+    cursor: pointer;
+}
+#menu-button:hover svg{
+    transform: scale(1.2); /* scale the SVG to 120% on hover */
+}
+#menu-button:not(:hover) {
+    border-radius: 50%;
+    transition: border-radius .75s;
+}
+#menu-button svg {
+    fill: #33383e;
+    transition: transform 0.5s ease-in-out;
+}
+#menu-button:active {
+    transform: translateY(4px);
+    transition: transform 0.2s ease-in;
+}
+#menu-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+    display: none; /* initially hidden */
+    z-index: 1; /* make it appear on top of other elements */
+}
+
+#menu-overlay ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu-overlay ul li {
+    margin-bottom: 1rem;
+}
+
+#menu-overlay ul li a {
+    color: white;
+    font-size: 2rem;
+}
