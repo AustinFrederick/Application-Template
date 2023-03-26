@@ -3,50 +3,46 @@ This is a web application template built using the Spring framework (version 3.0
 
 **Features**
 
-Built on the Spring 3.0.5 framework
+-Built on the Spring 3.0.5 framework
 
-Designed using responsive web design principles
+-Designed using responsive web design principles
 
-Compatible with various web browsers
+-Compatible with various web browsers
 
-Easy to customize and extend
+-Easy to customize and extend
 
 
 **Getting Started**
 To use this web application template, follow these steps:
 
 
-Clone the repository to your local machine
+1) Clone the repository to your local machine
 
-Run the application on a web server that supports Spring applications
+2) Run the application on a web server that supports Spring applications
 
-Customize the template to fit your specific needs
+3) Customize the template to fit your specific needs
 
 
 **Customization**
 
 The web application template is highly customizable, and you can modify it in several ways, including:
 
+-Changing the color scheme
 
+-Adding new pages
 
-**Changing the color scheme**
+-Modifying the layout
 
-Adding new pages
+-Adding new features
 
-Modifying the layout
-
-Adding new features
-
-Contributing
-
-
+**Contributing**
 **Contributions to this web application template are welcome. To contribute, follow these steps:**
 
-Fork the repository
+1) Fork the repository
 
-Make your changes
+2) Make your changes
 
-Submit a pull request with your changes
+3) Submit a pull request with your changes
 
 
 
