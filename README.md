@@ -3,6 +3,7 @@ This is a web application template built using the Spring framework (version 3.0
 
 
 **-------------------------------------------**
+
 **Features**
 
 - Built on the Spring 3.0.5 framework
@@ -16,6 +17,7 @@ This is a web application template built using the Spring framework (version 3.0
 
 
 **-------------------------------------------**
+
 **Getting Started**
 
 To use this web application template, follow these steps:
@@ -30,6 +32,7 @@ To use this web application template, follow these steps:
 
 
 **-------------------------------------------**
+
 **Customization**
 
 The web application template is highly customizable, and you can modify it in several ways, including:
@@ -44,6 +47,7 @@ The web application template is highly customizable, and you can modify it in se
 
 
 **-------------------------------------------**
+
 **Contributing**
 
 **Contributions to this web application template are welcome. To contribute, follow these steps:**
@@ -57,6 +61,7 @@ The web application template is highly customizable, and you can modify it in se
 
 
 **-------------------------------------------**
+
 **License**
 
 This web application template is released under the MIT License. See the LICENSE file for details.
