@@ -1,3 +1,42 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+/* Fallback font families */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins Regular', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins Bold', Arial, sans-serif;
+    font-weight: 700; /* bold */
+}
+
+h2 {
+    font-family: 'Poppins Medium', Arial, sans-serif;
+    font-weight: 500; /* medium */
+}
+
+h3 {
+    font-family: 'Poppins Bold', Arial, sans-serif;
+    font-weight: 700; /* bold */
+}
+
+body{
+    min-height: 300px;
+    min-width: 150px;
+}
 /* CSS for main background div */
 #pageBody {
     background-color: #0c0f12;
@@ -11,6 +50,7 @@
 
 /* CSS for foreground div */
 #pageContent {
+    overflow: hidden;
     background-color: #33383e;
     border-radius: 5px;
     box-sizing: border-box;
@@ -39,7 +79,7 @@
 #menu-button:hover {
     background-color: #707478;
     border-radius: 5px;
-    transition: border-radius .75s;
+    transition: border-radius .15s;
     cursor: pointer;
 }
 #menu-button:hover svg{
@@ -51,7 +91,7 @@
 }
 #menu-button svg {
     fill: #33383e;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.25s ease-in-out;
 }
 #menu-button:active {
     transform: translateY(4px);

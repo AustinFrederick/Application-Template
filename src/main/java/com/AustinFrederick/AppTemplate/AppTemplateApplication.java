@@ -24,11 +24,3 @@ public class AppTemplateApplication extends SpringBootServletInitializer {
 
     private static Class<AppTemplateApplication> applicationClass = AppTemplateApplication.class;
 }
-@Controller
-class HomeController {
-
-    @GetMapping("/home")
-    public String home() {
-        return "home";
-    }
-}
